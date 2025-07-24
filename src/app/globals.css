@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blockScroll::-webkit-scrollbar {
+    display: none;
+}
+
+@layer components {
+    ::selection {
+        background-color: black;
+        color: white;
+    }
+
+    ::-moz-selection {
+        background-color: black;
+        color: white;
+    }
+
+    .dark ::selection {
+        background-color: white;
+        color: black;
+    }
+
+    .dark ::-moz-selection {
+        background-color: white;
+        color: black;
+    }
+}
