@@ -25,7 +25,7 @@ export async function GET() {
     };
 
     const model: GenerativeModel = genAI.getGenerativeModel({
-        model: "gemini-pro",
+        model: "gemini-2.5-flash-lite",
         generationConfig,
     });
 

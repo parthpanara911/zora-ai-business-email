@@ -7,8 +7,4 @@ export const navList: {
         text: "Home",
         path: "/",
     },
-    {
-        text: "About",
-        path: "/about",
-    },
 ];
